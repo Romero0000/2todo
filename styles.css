@@ -65,12 +65,22 @@ body {
     100% { transform: scale(1); }
 }
 
+@media (max-width: 400px) {
+    .add-todo-input{
+        font-size: 20px;
+    }
+    .add-todo-btn{
+        font-size: 16px;
+    }
+}
+
 
 
 .tudo-list-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 15px;
     
 }
 .todo {
@@ -83,7 +93,7 @@ body {
     background-color: #c4ffcc;
     border: 3px solid rgb(0, 255, 0);
     border-radius: 20px;
-    margin: 15px;
+    margin: 15px 15px;
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 .todo-checkbox {
